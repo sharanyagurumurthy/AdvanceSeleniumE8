@@ -16,6 +16,6 @@ public class Script03_ShoppingCart_Test extends BaseClass {
 		sp = new ShoppingCartPage(driver);
 		sp.getRemoveCheckBox().click();
 		sp.getUpdatecartButton().click();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 	}
 }
